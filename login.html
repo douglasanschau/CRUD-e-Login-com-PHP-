@@ -1,0 +1,40 @@
+<!DOCYTPE html>
+<html>
+	
+	<head>
+
+		<meta charset='utf-8'>
+		<title>Cadastro de Usuário Administrador</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <style>
+           body {
+            background-color:#FAF3F3;
+           	padding: 100px 300px 0px 300px;
+           }
+           .card-title {
+           	  text-align:center;
+           }
+        </style>
+	</head>
+	<body>
+		<div class="card border">
+			<div class="card-header">
+				<h5 class="card-title"> Login </h5>
+			</div>
+			<div class="card-body">
+				<form class="form-group" action="login.php" method="POST">
+                    <label>E-mail</label>
+                    <input type="email" class="form-control" name="email"required> 
+                    <label >Senha</label>
+                    <input type="password" class="form-control" name="password" required> 
+            </div>
+            <div class="card-footer d-grid gap-2">
+                <button type='submit' class='btn btn-outline-dark'>Acessar</button>
+            </div>
+				</form>	
+		</div>
+   
+	</body>
+
+</html>
